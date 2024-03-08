@@ -22,7 +22,6 @@ app.get('/nome', function (req, res) {
 })
  app.post('/lista1/exr1', function (req, res) {
 
-    
 
     const t_eleitores = Number(req.body.t_eleitores)
     const v_brancos = Number(req.body.v_brancos)
